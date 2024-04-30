@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/public/css/style.css" type="text/css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>JS learning</title>
+  </head>
+  <body>
+    <nav class="navbar">
+        <div class="navcontainer">
+          <a href="#" class="logo">Javascript Manuscript</a>
+          <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/dashboard">Account</a></li>
+            <li><a href="lesson.html">Lessons</a></li>
+            <li><a href="asessment.html">Assessments</a></li>
+            <li><a href="about.html">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="container">
+        <h1 class="container-text">You have been logged in, <%= username %>!</h1>
+        <h1>Dashboard</h1>
+        <p class="container-subtext">Try out some of our lessons here:</p>
+        <a href="lesson.html" class="button">Start Lesson</a>
+        <p class="container-subtext">Ready for an assessment?:</p>
+        <a href="asessment.html" class="button">Start Assessment</a>
+        <li><a href="/logout">Logout</a></li>
+      </div>
+  </body>
+  
+</html>
